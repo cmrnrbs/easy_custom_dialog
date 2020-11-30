@@ -3,7 +3,7 @@ library easy_custom_dialog;
 import 'package:flutter/material.dart';
 
 
-class CustomDialog extends StatefulWidget {
+class EasyCustomDialog extends StatefulWidget {
   String title;
   String cancelButtonText;
   String applyButtonText;
@@ -12,12 +12,12 @@ class CustomDialog extends StatefulWidget {
   VoidCallback onApplyEvent;
   IconData dialogIcon;
   Color bgColor;
-  CustomDialog({this.title = 'Title', this.cancelButtonText = 'Cancel',this.applyButtonText = 'Apply',this.contentChildren = const [],this.onCancelEvent,this.onApplyEvent,this.dialogIcon = Icons.group_add,this.bgColor = Colors.blue});
+  EasyCustomDialog({this.title = 'Title', this.cancelButtonText = 'Cancel',this.applyButtonText = 'Apply',this.contentChildren = const [],this.onCancelEvent,this.onApplyEvent,this.dialogIcon = Icons.group_add,this.bgColor = Colors.blue});
   @override
-  _CustomDialogState createState() => _CustomDialogState();
+  _EasyCustomDialogState createState() => _EasyCustomDialogState();
 }
 
-class _CustomDialogState extends State<CustomDialog> {
+class _EasyCustomDialogState extends State<EasyCustomDialog> {
   @override
   Widget build(BuildContext context) {
     return Dialog(

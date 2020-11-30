@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
           onPressed: () {
             showDialog(
                 context: context,
-                child: CustomDialog(
+                child: EasyCustomDialog(
                   onCancelEvent: () {
                     Navigator.pop(context);
                   },
