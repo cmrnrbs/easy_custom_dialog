@@ -1,7 +1,7 @@
 name: easy_custom_dialog
 description: Bu paket kolay bir şekilde custom dialogu kullanabilmenizi sağlar
 version: 0.0.1
-author: Cemre Onur Baş
+author: Cemre Onur Baş<cemreonurb@gmail.com>
 homepage: https://github.com/cmrnrbs/easy_custom_dialog
 
 environment:
